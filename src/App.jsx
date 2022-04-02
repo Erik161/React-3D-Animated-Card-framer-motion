@@ -1,5 +1,6 @@
 import './App.css';
 import styled from "styled-components";
+import { NikeCard } from './components/nikeCard';
 
 
 
@@ -12,7 +13,11 @@ const AppContainer = styled.div`
 `;
 
 function App(){
-  return <AppContainer>Awesomenes</AppContainer>
+  return(
+  <AppContainer> 
+    <NikeCard /> 
+  </AppContainer>
+  )
 }
 
 

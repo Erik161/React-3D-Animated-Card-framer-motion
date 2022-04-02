@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const HorizontalMargin = styled.span`
     display: flex;
-    width: ${({margin})=>
+    width: ${({ margin }) =>
         typeof margin === "string" ? margin : `${margin}px`};
 `;
 
