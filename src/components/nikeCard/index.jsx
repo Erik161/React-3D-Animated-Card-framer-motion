@@ -117,7 +117,11 @@ export function NikeCard(props){
                     <Circle/>
                   </CircleWrapper>
                     <ShoesWrapper>
-                      <Shoes style={{rotate:"-25deg"}} >
+                      <Shoes style={{x,y, rotateX, rotateY, rotate:"-25deg", z:100000}}
+                      drag
+                      dragElastic={0.12}
+                      whileTap={{cursor:"grabbing"}}
+                      >
                         <img src={JordanImg}/>
                       </Shoes>
                     </ShoesWrapper>
