@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import {Marginer} from "../marginer"
+import {Marginer} from "../marginer";
+import NikeImg from "../../assets/nike-logo.png"
 
 const DetailsContainer = styled.div`
     width:100%;
@@ -51,6 +52,19 @@ const BuyButton = styled.button`
     }
 `;
 
+const NikeLogo = styled.div`
+    width:100%;
+    height:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    img{
+        width:auto;
+        height:13px;
+    }
+
+`;
 
 
 
@@ -70,6 +84,9 @@ export function ShoesDetails(props){
                 <MediumText>YOUR NEXT SHOES</MediumText>
                 <BuyButton>BUY</BuyButton>
             </SpacedHorizontalContainer>
+            <NikeLogo>
+                <img src={NikeImg}/>
+            </NikeLogo>
            </DetailsContainer>
 
 }
