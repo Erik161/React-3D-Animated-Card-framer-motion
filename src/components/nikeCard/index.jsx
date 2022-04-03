@@ -1,7 +1,8 @@
 import {motion} from "framer-motion";
 import React from "react";
 import styled from "styled-components";
-import JordanImg from "../../assets/air-jordan-transparent.png"
+import JordanImg from "../../assets/air-jordan-transparent.png";
+import {ShoesDetails} from "./shoesDetails";
 
 const CardContainer = styled.div`
   width:285px;
@@ -105,6 +106,8 @@ export function NikeCard(props){
                 </ShoesWrapper>
                 <NikeText>Nike Air</NikeText>
             </TopContainer>
-            <BottomContainer>bottom</BottomContainer>
+            <BottomContainer>
+              <ShoesDetails/>
+            </BottomContainer>
         </CardContainer>
 }
