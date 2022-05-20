@@ -94,6 +94,7 @@ const Shoes = styled(motion.div)`
     width:auto;
     height:100%;
     user-select:none;
+    pointer-events: none;
   };
 
 `;
