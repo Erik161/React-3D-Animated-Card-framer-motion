@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-3D-Animated-Card-framer-motion/static/css/main.d46bbb34.css",
-    "main.js": "/React-3D-Animated-Card-framer-motion/static/js/main.b060c309.js",
+    "main.js": "/React-3D-Animated-Card-framer-motion/static/js/main.7048052e.js",
     "static/js/787.b0cdf5ab.chunk.js": "/React-3D-Animated-Card-framer-motion/static/js/787.b0cdf5ab.chunk.js",
     "static/media/air-jordan-transparent.png": "/React-3D-Animated-Card-framer-motion/static/media/air-jordan-transparent.b9386e0575a062c9fceb.png",
     "static/media/nike-logo.png": "/React-3D-Animated-Card-framer-motion/static/media/nike-logo.8d1aedb223d2b0f2deaa.png",
     "index.html": "/React-3D-Animated-Card-framer-motion/index.html",
     "main.d46bbb34.css.map": "/React-3D-Animated-Card-framer-motion/static/css/main.d46bbb34.css.map",
-    "main.b060c309.js.map": "/React-3D-Animated-Card-framer-motion/static/js/main.b060c309.js.map",
+    "main.7048052e.js.map": "/React-3D-Animated-Card-framer-motion/static/js/main.7048052e.js.map",
     "787.b0cdf5ab.chunk.js.map": "/React-3D-Animated-Card-framer-motion/static/js/787.b0cdf5ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d46bbb34.css",
-    "static/js/main.b060c309.js"
+    "static/js/main.7048052e.js"
   ]
 }
